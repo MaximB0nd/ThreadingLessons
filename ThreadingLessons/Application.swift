@@ -11,11 +11,13 @@ import Foundation
 struct Application {
     static func main() throws {
         
-        Thread.detachNewThread {
-            Threads()
+        var a = 0
+        while true {
+            if a == 0 {
+                asyncThreads_p1()
+                a+=1
+            }
         }
-        
-       while true {}
         
         
         
