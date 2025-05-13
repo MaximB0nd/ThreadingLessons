@@ -14,21 +14,16 @@ struct Application {
         var a = 0
         while true {
             if a == 0 {
-                asyncThreads_p1()
+                
+                
+                
+                //asyncThreads_p1()
+                saveTypes()
+                
+                
                 a+=1
             }
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
     }
 }
