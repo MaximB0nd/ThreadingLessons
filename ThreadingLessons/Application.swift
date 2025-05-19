@@ -11,19 +11,9 @@ import Foundation
 struct Application {
     static func main() throws {
         
-        var a = 0
-        while true {
-            if a == 0 {
-                
-                
-                
-                //asyncThreads_p1()
-                saveTypes()
-                
-                
-                a+=1
-            }
-        }
+        Mutex_3()
+        
+        while true {}
         
     }
 }

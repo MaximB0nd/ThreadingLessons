@@ -13,7 +13,7 @@ func getRandomSumm() -> Int {
     return Array(0...limit).reduce(into: 0, { $0 = $0 + $1 })
 }
 
-func asyncThreads_p1() {
+func semaphor() {
     let semaphor = DispatchSemaphore(value: 0)
     //let semaphor = sem_open("app", O_CREAT, 0x666, 0)
 //    guard semaphor != SEM_FAILED else {
