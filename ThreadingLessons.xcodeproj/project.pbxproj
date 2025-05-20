@@ -19,11 +19,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A5A4EB42DC151F00058A0A2 /* ThreadingLessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThreadingLessons; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A948EBC2DDC545400242519 /* ThreadingLessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThreadingLessons; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0A5A4EB62DC151F00058A0A2 /* ThreadingLessons */ = {
+		0A948EB62DDC544C00242519 /* ThreadingLessons */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ThreadingLessons;
 			sourceTree = "<group>";
@@ -44,17 +44,9 @@
 		0A5A4EAB2DC151F00058A0A2 = {
 			isa = PBXGroup;
 			children = (
-				0A5A4EB62DC151F00058A0A2 /* ThreadingLessons */,
-				0A5A4EB52DC151F00058A0A2 /* Products */,
+				0A948EB62DDC544C00242519 /* ThreadingLessons */,
+				0A948EBC2DDC545400242519 /* ThreadingLessons */,
 			);
-			sourceTree = "<group>";
-		};
-		0A5A4EB52DC151F00058A0A2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0A5A4EB42DC151F00058A0A2 /* ThreadingLessons */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,13 +65,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0A5A4EB62DC151F00058A0A2 /* ThreadingLessons */,
+				0A948EB62DDC544C00242519 /* ThreadingLessons */,
 			);
 			name = ThreadingLessons;
 			packageProductDependencies = (
 			);
 			productName = ThreadingLessons;
-			productReference = 0A5A4EB42DC151F00058A0A2 /* ThreadingLessons */;
+			productReference = 0A948EBC2DDC545400242519 /* ThreadingLessons */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +99,7 @@
 			mainGroup = 0A5A4EAB2DC151F00058A0A2;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 0A5A4EB52DC151F00058A0A2 /* Products */;
+			productRefGroup = 0A5A4EAB2DC151F00058A0A2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
