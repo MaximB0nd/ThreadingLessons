@@ -11,7 +11,7 @@ import Foundation
 struct Application {
     static func main() throws {
         
-        RWLock()
+        runThread()
         
         while true {}
         
