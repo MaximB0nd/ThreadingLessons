@@ -9,7 +9,7 @@ import Foundation
 
 func GCD () {
     let queue = DispatchQueue(label: "queue", qos: .userInteractive, attributes: .concurrent, autoreleaseFrequency: .workItem, target: .main)
-    queue.sync {
+    queue.async {
         print("1")
     }
     queue.async {

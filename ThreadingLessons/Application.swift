@@ -11,9 +11,12 @@ import Foundation
 struct Application {
     static func main() throws {
         
-        GCD()
+        GCDWorkItem()
         
-        while true {}
+        while true {
+            Thread.sleep(forTimeInterval: 1)
+        }
+        
         
     }
 }
