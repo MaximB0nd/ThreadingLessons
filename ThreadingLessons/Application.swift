@@ -11,7 +11,7 @@ import Foundation
 struct Application {
     static func main() throws {
         
-        AsyncLet()
+        WithTaskGroup()
         
         while true {
             Thread.sleep(forTimeInterval: 1)
