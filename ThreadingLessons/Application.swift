@@ -11,7 +11,7 @@ import Foundation
 struct Application {
     static func main() throws {
         
-        WithTaskGroup()
+        CanceledTask()
         
         while true {
             Thread.sleep(forTimeInterval: 1)
